@@ -22,8 +22,22 @@ let state;
 // undefined => 
 // symbol => unique
 
-
+//Array
 // object
+//Functions
+
+//const heros = ["shaktiman", "naagraj", "doga"];
+// let myObj = {
+//     name: "hitesh",
+//     age: 22,
+// }
+
+// const myFunction = function(){
+//     console.log("Hello world");
+// }
+
+// console.log(typeof anotherId);
+
 
 console.log(typeof undefined); // undefined
 console.log(typeof null); // object
