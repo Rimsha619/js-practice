@@ -1,59 +1,57 @@
-let score = "hitesh"
-
-//console.log(typeof score);
-//console.log(typeof(score));
-
-let valueInNumber = Number(score)
-//console.log(typeof valueInNumber);
-//console.log(valueInNumber);
 
 
-// "33" => 33
-// "33abc" => NaN
-//  true => 1; false => 0
+// // short-circuting operators
+// let x = 5;
+// let y = 0;
 
-let isLoggedIn = "hitesh"
+// // Short-circuit AND: The second part (y > 0) is not evaluated
+// if (x > 0 && y > 0) {
+//   console.log("Both x and y are positive");
+// } else {
+//   console.log("At least one is not positive"); // This will be printed
+// }
 
-let booleanIsLoggedIn = Boolean(isLoggedIn)
-//  console.log(booleanIsLoggedIn);
+// // Short-circuit OR: The second part (y > 0) is not evaluated
+// if (x > 0 || y > 0) {
+//   console.log("At least one is positive"); // This will be printed
+// }
 
-// 1 => true; 0 => false
-// "" => false
-// "hitesh" => true
+// pre-incrememnt or post-increment
+// Pre-increment (e.g., ++x)
+// // The variable is incremented before its value is used in the expression.
+// // Example: If x is 5, y = ++x; will first increment x to 6, and then assign the value 6 to y.
+// // Therefore, both x and y will be 6. 
+// Post-increment (e.g., x++)
+// // The variable is incremented after its value is used in the expression.
+// // Example: If x is 5, y = x++; will first assign the current value of x (5) to y, and then increment x to 6.
+// // Therefore, y will be 5, and x will be 6. 
+// In summary:
+// // Pre-increment: Increment first, then use.
+// // Post-increment: Use first, then increment. 
 
-let someNumber = 33
 
-let stringNumber = String(someNumber)
-// console.log(stringNumber);
-// console.log(typeof stringNumber);
 
-// *********************** Operations ***********************
 
-let value = 3
-let negValue = -value
-// console.log(negValue);
 
-// console.log(2+2);
-// console.log(2-2);
-// console.log(2*2);
-// console.log(2**3);
-// console.log(2/3);
-// console.log(2%3);
 
-let string1 = "test"
-let string2 = " zimal"
 
-let string3 = string1 + string2
-// console.log(string3);
 
-// console.log("1" + 2);
-// console.log(1 + "2");
-// console.log("1" + 2 + 2);
-// console.log(1 + 2 + "2");
+// let c = 2;
+// console.log(++c)
+// console.log (c)
+// console.log (c)
 
-// console.log(+true);
-// console.log(+"");
+let a = 5, b = 2;
+console.log((a + b) * (a - b));
+            // a + b = 5 + 2 = 7
+            // a - b = 5 - 2 = 3
+            // 7 * 3 = 21
 
-let sports = 100
-++sports;
-console.log(sports);
+            
+let a = 5;
+let b = 2;
+let result = a ** b - a % b;
+console.log(result);
+          // a ** b means 5 ** 2 = 25 (Exponentiation)
+          // a % b means 5 % 2 = 1 (Remainder of division)
+          // result = 25 - 1 = 24  
