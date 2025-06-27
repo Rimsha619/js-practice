@@ -41,17 +41,22 @@
 // console.log (c)
 // console.log (c)
 
-let a = 5, b = 2;
-console.log((a + b) * (a - b));
+// let a = 5, b = 2;
+// console.log((a + b) * (a - b));
             // a + b = 5 + 2 = 7
             // a - b = 5 - 2 = 3
             // 7 * 3 = 21
 
-            
-let a = 5;
-let b = 2;
-let result = a ** b - a % b;
-console.log(result);
+
+// let a = 5;
+// let b = 2;
+// let result = a ** b - a % b;
+// console.log(result);
           // a ** b means 5 ** 2 = 25 (Exponentiation)
           // a % b means 5 % 2 = 1 (Remainder of division)
           // result = 25 - 1 = 24  
+
+
+          let d = 10;
+console.log((d += d -= 2));
+// d= d-2
