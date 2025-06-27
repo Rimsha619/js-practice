@@ -59,4 +59,3 @@
 
           let d = 10;
 console.log((d += d -= 2));
-// d= d-2
